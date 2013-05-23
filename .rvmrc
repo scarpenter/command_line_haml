@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ruby_string="ruby-1.9.3-p392"
+gemset_name="cl-haml"
+
+rvm use "${ruby_string}@${gemset_name}"
