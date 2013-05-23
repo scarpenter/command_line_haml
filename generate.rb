@@ -66,4 +66,5 @@ if __FILE__==$0
   example_boolean = ARGV.length > 0 && (ARGV[0] == "true" || ARGV[0] == "yes")
   g = Generator.new example_boolean
   g.generate "index"
+  g.generate "another_page"
 end

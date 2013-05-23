@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %title
+      = render_partial :title
+  %body
+    = yield
+    %div(style="position:absolute;bottom:10px;")
+      Copyright #{copyright_year}
+
